@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioButton
+        android:id="@+id/btnOpc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Orden de numeros"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"/>
+
+    <RadioButton
+        android:id="@+id/btnOpc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero par o impar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <RadioButton
+        android:id="@+id/btnOpc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Factorial de un numero"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"/>
+
+    <RadioButton
+        android:id="@+id/btnOpc4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Area y perimetro de un rectangulo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="200dp"/>
+
+    <RadioButton
+        android:id="@+id/btnOpc5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero primo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECCIONA UNA OPCION"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>
